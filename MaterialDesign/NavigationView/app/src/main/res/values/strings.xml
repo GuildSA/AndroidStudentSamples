@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Navigation View</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="header_web_front_ent">Web Front End</string>
+    <string name="header_back_end">Back End</string>
+    <string name="header_mobile">Mobile</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="windows">Windows</string>
+    <string name="blackberry">Blackberry</string>
+    <string name="ionic">Ionic</string>
+    <string name="css">CSS</string>
+    <string name="html">HTML</string>
+    <string name="ruby">Ruby</string>
+    <string name="php">PHP</string>
+    <string name="python">Python</string>
+</resources>

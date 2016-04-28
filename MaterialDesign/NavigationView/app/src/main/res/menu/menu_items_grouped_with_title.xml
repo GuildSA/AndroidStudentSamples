@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This drawer menu has items grouped and with titles -->
+
+    <item
+        android:id="@+id/navigation_item_1"
+        android:title="Mobile">
+        <menu>
+            <item
+                android:id="@+id/item_android"
+                android:checkable="true"
+                android:icon="@drawable/ic_android"
+                android:title="Android"/>
+
+            <item
+                android:id="@+id/item_ios"
+                android:checkable="true"
+                android:icon="@drawable/ic_ios"
+                android:title="iOS"/>
+
+            <item
+                android:id="@+id/item_windows"
+                android:checkable="true"
+                android:icon="@drawable/ic_windows"
+                android:title="Windows"/>
+
+            <item
+                android:id="@+id/item_ionic"
+                android:checkable="true"
+                android:icon="@drawable/ic_ionic"
+                android:title="Ionic"/>
+
+            <item
+                android:id="@+id/item_blackberry"
+                android:checkable="true"
+                android:icon="@drawable/ic_blackberry"
+                android:title="Blackberry"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/navigation_item_2"
+          android:title="Frontend Web">
+        <menu>
+            <item
+                android:id="@+id/item_html"
+                android:checkable="true"
+                android:icon="@drawable/ic_html"
+                android:title="HTML"/>
+
+            <item
+                android:id="@+id/item_css"
+                android:checkable="true"
+                android:icon="@drawable/ic_css"
+                android:title="CSS"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/navigation_item_3"
+          android:title="Backend Web">
+        <menu>
+            <item
+                android:id="@+id/item_python"
+                android:checkable="true"
+                android:icon="@drawable/ic_python"
+                android:title="Python"/>
+
+            <item
+                android:id="@+id/item_Ruby"
+                android:checkable="true"
+                android:icon="@drawable/ic_ruby"
+                android:title="Ruby"/>
+
+            <item
+                android:id="@+id/item_php"
+                android:checkable="true"
+                android:icon="@drawable/ic_php"
+                android:title="PHP"/>
+        </menu>
+    </item>
+
+</menu>
