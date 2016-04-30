@@ -1,0 +1,45 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- Your Scrollable View : Can be Nested Scroll View or Recycler View-->
+    <include layout="@layout/nested_scroll_view"/>
+
+    <!--
+		scroll: this flag should be set for all views that want to scroll off the screen
+				- for views that do not use this flag, they’ll remain pinned to the top of the screen
+
+		enterAlways: this flag ensures that any downward scroll will cause this view to become visible,
+					enabling the ‘quick return’ pattern
+
+		enterAlwaysCollapsed: When your view has declared a minHeight and you use this flag,
+							your View will only enter at its minimum height (i.e., ‘collapsed’),
+							only re-expanding to its full height when the scrolling view has reached it’s top.
+
+		exitUntilCollapsed: this flag causes the view to scroll off until it is ‘collapsed’ (its minHeight)
+							before exiting
+	-->
+
+</android.support.design.widget.CoordinatorLayout>
