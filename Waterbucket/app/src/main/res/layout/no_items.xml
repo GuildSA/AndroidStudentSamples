@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/text_view_no_items"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_row_drop"
+    android:fontFamily="@string/font_family"
+    android:gravity="center"
+    android:paddingBottom="@dimen/text_view_no_items_vertical_padding"
+    android:paddingTop="@dimen/text_view_no_items_vertical_padding"
+    android:text="@string/string_no_items">
+
+</TextView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="me.jimmyshaw.dropbucketlist.ActivityMain">
+
+    <ImageView
+        android:id="@+id/image_view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <me.jimmyshaw.dropbucketlist.widgets.CustomRecyclerView
+        android:id="@+id/recycler_view_drops"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+
+    <include
+        android:id="@+id/empty_drops"
+        layout="@layout/empty_drops"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="@dimen/button_add_a_drop_vertical_margin"
+    android:layout_marginLeft="@dimen/button_add_a_drop_horizontal_padding"
+    android:layout_marginRight="@dimen/button_add_a_drop_horizontal_padding"
+    android:layout_marginTop="@dimen/button_add_a_drop_vertical_margin"
+    android:background="@drawable/background_button_add_it"
+    android:fontFamily="@string/font_family"
+    android:text="@string/string_add_a_drop"
+    android:textAllCaps="false"
+    android:textColor="@color/button_add_a_drop"
+    android:textSize="@dimen/button_add_a_drop_font_size">
+
+</Button>

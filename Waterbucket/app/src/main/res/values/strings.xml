@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Waterbucket</string>
+    <string name="string_add_a_drop">Add a drop</string>
+    <string name="string_add_it">Add it</string>
+    <string name="hint_edit_text_drop">What\'s your goal?</string>
+    <string name="font_family">sans-serif-thin</string>
+    <string name="string_mark_completed">Mark as complete</string>
+    <string name="action_add">Add</string>
+    <string name="action_sort_descending_date">Most time remaining</string>
+    <string name="action_sort_ascending_date">Least time remaining</string>
+    <string name="action_show_complete">Complete</string>
+    <string name="action_show_incomplete">Incomplete</string>
+    <string name="string_no_items">No items to display</string>
+    <string name="action_none">None</string>
+    <string name="notification_message_small_device">Goal deadline approaching: </string>
+    <string name="notification_message_large_device">Goal deadline approaching: </string>
+    <string name="action_filter">Filter by</string>
+</resources>

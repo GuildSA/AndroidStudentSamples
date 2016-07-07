@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dialog_add_padding">
+
+        <TextView
+            android:id="@+id/text_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_view_title_vertical_margin"
+            android:layout_marginTop="@dimen/text_view_title_vertical_margin"
+            android:text="@string/string_add_a_drop"
+            android:textSize="@dimen/text_view_title_font_size"/>
+
+        <ImageButton
+            android:id="@+id/button_close"
+            android:layout_width="@dimen/image_button_width"
+            android:layout_height="@dimen/image_button_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/text_view_title"
+            android:background="@null"
+            android:src="@drawable/ic_close"/>
+
+        <EditText
+            android:id="@+id/edit_text_drop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_title"
+            android:background="@drawable/background_edit_text_add"
+            android:hint="@string/hint_edit_text_drop"
+            android:padding="16dp"
+            android:singleLine="true"/>
+
+        <!--
+            To use the default Google date picker, use the DatePicker widget. We choose to use a custom
+            date picker however so we have to specify the complete package name.
+        -->
+        <me.jimmyshaw.dropbucketlist.widgets.CustomDatePickerView
+            android:id="@+id/date_picker_view_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_drop"/>
+
+        <Button
+            android:id="@+id/button_add_it"
+            style="@style/AddButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_picker_view_date"
+            android:text="@string/string_add_it"/>
+
+    </RelativeLayout>
+
+</ScrollView>

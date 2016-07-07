@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/action_add"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_filter_symbol"
+        android:icon="@drawable/ic_action_filter"
+        android:title="@string/action_filter"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/action_sort_descending_date"
+                android:title="@string/action_sort_descending_date"/>
+
+            <item
+                android:id="@+id/action_sort_ascending_date"
+                android:title="@string/action_sort_ascending_date"/>
+
+            <item
+                android:id="@+id/action_complete"
+                android:title="@string/action_show_complete"/>
+
+            <item
+                android:id="@+id/action_incomplete"
+                android:title="@string/action_show_incomplete"/>
+
+            <item
+                android:id="@+id/action_none"
+                android:title="@string/action_none"/>
+        </menu>
+    </item>
+
+
+</menu>

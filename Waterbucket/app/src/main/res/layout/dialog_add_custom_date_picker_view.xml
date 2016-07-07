@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="40dp">
+
+    <TextView
+        android:id="@+id/text_view_month"
+        style="@style/DatePickerItemStyle"
+        android:text="JAN"/>
+
+    <Space
+        android:layout_width="@dimen/date_picker_text_view_space_padding"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/text_view_day"
+        style="@style/DatePickerItemStyle"
+        android:text="01"/>
+
+    <Space
+        android:layout_width="@dimen/date_picker_text_view_space_padding"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/text_view_year"
+        style="@style/DatePickerItemStyle"
+        android:text="2020"/>
+
+</LinearLayout>

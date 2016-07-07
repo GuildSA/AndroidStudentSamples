@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        The layer list comprises of items that form layers, similar to layers in Photoshop, where
+        the first item is the bottom layer and subsequent layers would be layers on top of the previous.
+        It's essentially a stack of layers.
+    -->
+    <item>
+        <shape>
+            <solid
+                android:color="@android:color/transparent"/>
+            <size
+                android:width="@dimen/date_picker_shape_size"
+                android:height="@dimen/date_picker_shape_height"/>
+            <corners
+                android:topLeftRadius="@dimen/date_picker_item_corner_radius"
+                android:topRightRadius="@dimen/date_picker_item_corner_radius"/>
+        </shape>
+    </item>
+
+    <item
+        android:height="@dimen/date_picker_shape_height"
+        android:drawable="@drawable/ic_up_pressed"
+        android:gravity="center"/>
+</layer-list>

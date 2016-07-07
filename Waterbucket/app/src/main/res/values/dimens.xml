@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="button_add_it_corner_radius_purple">2dp</dimen>
+    <dimen name="button_add_it_stroke_width">1dp</dimen>
+    <dimen name="button_add_it_corner_radius_green">2dp</dimen>
+
+    <dimen name="image_view_logo_size">192dp</dimen>
+    <dimen name="image_view_logo_width">84dp</dimen>
+
+    <dimen name="button_add_a_drop_margin">24dp</dimen>
+    <dimen name="button_add_a_drop_vertical_padding">8dp</dimen>
+    <dimen name="button_add_a_drop_horizontal_padding">60dp</dimen>
+    <dimen name="button_add_a_drop_font_size">28sp</dimen>
+    <dimen name="text_view_title_vertical_margin">36dp</dimen>
+    <dimen name="text_view_title_font_size">18sp</dimen>
+    <dimen name="row_drop_vertical_padding">22dp</dimen>
+    <dimen name="row_drop_horizontal_padding">16dp</dimen>
+    <dimen name="row_drop_text_size">16sp</dimen>
+    <dimen name="image_view_drop_size">14dp</dimen>
+    <dimen name="text_view_horizontal_padding">18dp</dimen>
+    <dimen name="button_drawable_padding">16dp</dimen>
+    <dimen name="image_button_width">25dp</dimen>
+    <dimen name="image_button_height">25dp</dimen>
+    <dimen name="button_mark_completed_font_size">28sp</dimen>
+    <dimen name="button_mark_completed_margin_top">96dp</dimen>
+    <dimen name="button_mark_completed_margin_bottom">96dp</dimen>
+    <dimen name="dialog_detail_padding">24dp</dimen>
+    <dimen name="dialog_add_padding">16dp</dimen>
+    <dimen name="text_view_no_items_vertical_padding">22dp</dimen>
+    <dimen name="button_add_a_drop_vertical_margin">128dp</dimen>
+    <dimen name="date_picker_shape_size">96dp</dimen>
+    <dimen name="date_picker_text_view_drawable_padding">16dp</dimen>
+    <dimen name="date_picker_shape_height">30dp</dimen>
+    <dimen name="date_picker_item_corner_radius">4dp</dimen>
+    <dimen name="date_picker_text_view_space_padding">12dp</dimen>
+</resources>
