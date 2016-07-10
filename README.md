@@ -3,6 +3,8 @@ A collection of interesting Android samples written by students and apprentices 
 
 MaterialDesign - Layouts and design aesthetics based on Google's Material Design specifications.
 
-RetrofitLibrary - A couple of samples utilizing Retrofit 2.0, a popular HTTP-client library written by Square Inc.
+RetrofitLibrary - A couple of samples that uses Retrofit 2.0.
 
-Waterbucket - A goal tracker/todo list app.
+Waterbucket - A goal tracker/todo list app that uses Realm Database.
+
+GreenCalc - A simple calculator that uses Butterknife.
